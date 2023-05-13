@@ -1,0 +1,62 @@
+<!DOCTYPEhtml >
+< html  lang =" en " >
+  < cabeça >
+    < meta  charset =" UTF-8 " />
+    < meta  http-equiv =" X-UA-Compatible " content =" IE=edge " />
+    < meta  name =" viewport " content =" width=device-width, initial-scale=1.0 " />
+    < title > Dar seu cuzinho </ title >
+  </ cabeça >
+
+  < estilo do corpo  =" cor de fundo: vermelho; " >
+    < div
+      id =" elemento "
+      estilo ="
+        largura: 100vw;
+        altura: 100vh;
+        exibição: flexível;
+        flex-direction: linha;
+        justificar-conteúdo: centro;
+        itens de alinhamento: centro;
+      "
+    >
+      < estilo div  =" largura: 300px; altura: 300px; alinhamento de texto: centro " >
+        < h3  style =" font-weight: bold; color: white; " > Cuzinho Hoje? </h3> _ _
+        < botão
+          estilo ="
+            margem direita: 10px;
+            preenchimento: 10px;
+            largura: 100px;
+            cursor: ponteiro;
+            cor de fundo: branco;
+            raio da borda: 10px;
+            borda: nenhum;
+          "
+          id =" btn-sim "
+          onclick =" openYoutube () "
+        >
+          sim
+        </ botão >
+        < botão
+          estilo =" preenchimento: 10px; largura: 100px; cursor: ponteiro; cor de fundo: branco; raio da borda: 10px; borda: nenhum; "
+          id =" btn-no "
+        >
+          Não
+        </ botão >
+      </div> _ _
+    </div> _ _
+    <script> _ _
+      const  elemento  =  documento . getElementById ( "btn-no" ) ;
+        elemento . addEventListener ( "mouseenter" ,  ( )  =>  {
+        const  x  =  matemática . floor ( Math.random ( ) * window.innerWidth ) ; _ _ _ _  
+        const  y  =  Matemática . floor ( Math.random ( ) * window.innerHeight ) ; _ _ _ _  
+        elemento . estilo . posição  =  "absoluto" ;
+        elemento . estilo . esquerda  =  x  +  "px" ;
+        elemento . estilo . topo  =  y  +  "px" ;
+      } ) ;
+
+      função  abrirYoutube ( )  {
+        janela . abra ( "https://www.youtube.com/watch?v=orWnzqBA63w" ) ;
+      }
+    </ script >
+  </ corpo >
+</html> _ _
